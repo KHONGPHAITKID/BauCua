@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bầu Cua</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game">
+            <img src="img/bowl.jpg" alt="bowl" class="bowl">
+            <div class="dices">
+                <img src="img/bau.jpg" alt="bau" class="dice" id="dice1">
+                <img src="img/ga.jpg" alt="ga" class="dice" id="dice2">
+                <img src="img/nai.jpg" alt="nai" class="dice" id="dice3">
+            </div>
+            <div class="buttons">
+                <button id="hide-btn" onclick="hideDices()">Hide</button>
+                <button id="show-btn" onclick="showDices()">Show</button>
+                <button id="shake-btn" onclick="shakeDice()">Shake</button>
+            </div>
+        </div>
+    </div>
+    <div class="notifications"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
